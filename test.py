@@ -4,7 +4,7 @@ import time
 GPIO.setmode (GPIO.BCM)
 GPIO.setup (4, GPIO.OUT)
 
-while:
+while True:
     GPIO.output(4, True)
     print("on")
     time.sleep(5)
