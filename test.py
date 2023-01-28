@@ -10,3 +10,4 @@ while True:
     time.sleep(5)
     GPIO.output(4, False)
     print("off")
+    time.sleep(5)
